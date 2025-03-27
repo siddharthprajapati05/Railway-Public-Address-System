@@ -1,0 +1,105 @@
+train_no,departure,arrival,platform,destination,delay_mins,reason,feedback,sentiment
+123,06:00,07:15,3,New York,20,signal failure,"Train 123 is always late, terrible service!",-0.5255
+123,06:00,07:15,3,New York,0,,"Train 123 is always late, terrible service!",-0.5255
+456,06:30,08:00,5,Boston,15,weather,"Train 456 was delayed again, but the staff were nice.",0.5023
+100,07:00,08:30,2,Chicago,0,,"Train 100 arrived on time, great experience.",0.6249
+101,07:30,09:15,4,Washington,0,,No feedback available,-0.296
+102,08:00,09:45,6,Philadelphia,30,mechanical issue,"Train 102 had a long delay, very frustrating.",-0.6697
+103,08:30,10:15,1,Miami,10,track maintenance,No feedback available,-0.296
+104,09:00,11:00,7,Los Angeles,0,,No feedback available,-0.296
+105,09:30,11:15,3,Houston,0,,No feedback available,-0.296
+106,10:00,11:30,5,Seattle,25,signal failure,"Train 106 was slightly late, but manageable.",0.0
+107,10:30,12:45,2,Denver,0,,No feedback available,-0.296
+108,11:00,12:15,8,New York,45,weather,"Train 108 took forever, awful weather excuse.",-0.4019
+109,11:30,13:00,4,Boston,0,,No feedback available,-0.296
+110,12:00,13:30,6,Chicago,15,staff shortage,"Train 110 staff handled the delay well, kudos.",0.4767
+111,12:30,14:15,9,Washington,0,,No feedback available,-0.296
+112,13:00,14:45,1,Philadelphia,20,mechanical issue,"Train 112 broke down, worst trip ever.",-0.7845
+113,13:30,15:00,3,Miami,0,,No feedback available,-0.296
+114,14:00,15:30,5,Los Angeles,35,track maintenance,Train 114 was a mess due to maintenance.,-0.3612
+115,14:30,16:15,7,Houston,0,,No feedback available,-0.296
+116,15:00,16:30,2,Seattle,10,weather,No feedback available,-0.296
+117,15:30,17:00,4,Denver,0,,No feedback available,-0.296
+118,16:00,17:45,6,New York,50,signal failure,"Train 118 delay was short, no big deal.",-0.5423
+119,16:30,18:15,8,Boston,0,,No feedback available,-0.296
+120,17:00,18:30,1,Chicago,15,staff shortage,"Train 120 got delayed, but communication was good.",0.5267
+121,17:30,19:00,3,Washington,0,,No feedback available,-0.296
+122,18:00,19:45,5,Philadelphia,25,mechanical issue,"Train 122 mechanical issues again, fix it!",0.0
+123,18:30,20:15,7,Miami,20,signal failure,"Train 123 is always late, terrible service!",-0.5255
+123,18:30,20:15,7,Miami,0,,"Train 123 is always late, terrible service!",-0.5255
+124,19:00,20:30,9,Los Angeles,30,track maintenance,No feedback available,-0.296
+125,19:30,21:15,2,Houston,0,,No feedback available,-0.296
+126,20:00,21:30,4,Seattle,20,weather,"Train 126 was late due to weather, understandable.",0.0
+127,20:30,22:15,6,Denver,0,,No feedback available,-0.296
+128,21:00,22:45,8,New York,40,signal failure,No feedback available,-0.296
+129,21:30,23:00,1,Boston,0,,No feedback available,-0.296
+130,22:00,23:30,3,Chicago,15,staff shortage,"Train 130 arrived on time despite rain, impressive.",-0.4023
+131,22:30,00:15,5,Washington,0,,No feedback available,-0.296
+132,23:00,00:45,7,Philadelphia,25,mechanical issue,No feedback available,-0.296
+133,23:30,01:00,9,Miami,0,,No feedback available,-0.296
+134,06:00,07:30,2,Los Angeles,35,track maintenance,Train 134 signal failure ruined my day.,-0.7506
+135,06:30,08:15,4,Houston,0,,No feedback available,-0.296
+136,07:00,08:45,6,Seattle,10,weather,No feedback available,-0.296
+137,07:30,09:00,8,Denver,0,,No feedback available,-0.296
+138,08:00,09:15,1,New York,50,signal failure,Train 138 staff shortage excuse is getting old.,-0.1779
+139,08:30,10:00,3,Boston,0,,No feedback available,-0.296
+140,09:00,10:45,5,Chicago,15,staff shortage,No feedback available,-0.296
+141,09:30,11:15,7,Washington,0,,No feedback available,-0.296
+142,10:00,11:45,9,Philadelphia,20,mechanical issue,Train 142 delay was handled poorly.,-0.3182
+143,10:30,12:00,2,Miami,0,,No feedback available,-0.296
+144,11:00,12:30,4,Los Angeles,30,track maintenance,No feedback available,-0.296
+145,11:30,13:15,6,Houston,0,,No feedback available,-0.296
+146,12:00,13:45,8,Seattle,25,weather,"Train 146 track work delayed us, annoying.",-0.5574
+147,12:30,14:00,1,Denver,0,,No feedback available,-0.296
+148,13:00,14:30,3,New York,40,signal failure,No feedback available,-0.296
+149,13:30,15:15,5,Boston,0,,No feedback available,-0.296
+150,14:00,15:45,7,Chicago,15,staff shortage,Train 150 was late but staff apologized.,0.4497
+151,14:30,16:00,9,Washington,0,,No feedback available,-0.296
+152,15:00,16:45,2,Philadelphia,20,mechanical issue,No feedback available,-0.296
+153,15:30,17:15,4,Miami,0,,No feedback available,-0.296
+154,16:00,17:30,6,Los Angeles,35,track maintenance,"Train 154 signal issues, horrible service.",-0.5423
+155,16:30,18:00,8,Houston,0,,No feedback available,-0.296
+156,17:00,18:45,1,Seattle,10,weather,No feedback available,-0.296
+157,17:30,19:15,3,Denver,0,,No feedback available,-0.296
+158,18:00,19:30,5,New York,50,signal failure,"Train 158 delay wasn’t too bad, staff were helpful.",-0.4588
+159,18:30,20:00,7,Boston,0,,No feedback available,-0.296
+160,19:00,20:45,9,Chicago,15,staff shortage,No feedback available,-0.296
+161,19:30,21:00,2,Washington,0,,No feedback available,-0.296
+162,20:00,21:45,4,Philadelphia,25,mechanical issue,"Train 162 mechanical failure, unacceptable.",-0.743
+163,20:30,22:00,6,Miami,0,,No feedback available,-0.296
+164,21:00,22:30,8,Los Angeles,30,track maintenance,No feedback available,-0.296
+165,21:30,23:15,1,Houston,0,,No feedback available,-0.296
+166,22:00,23:45,3,Seattle,20,weather,"Train 166 was on time, smooth ride.",0.0
+167,22:30,00:00,5,Denver,0,,No feedback available,-0.296
+168,23:00,00:30,7,New York,40,signal failure,No feedback available,-0.296
+169,23:30,01:15,9,Boston,0,,No feedback available,-0.296
+170,06:00,07:45,2,Chicago,15,staff shortage,Train 170 staff shortage caused chaos.,-0.6908
+171,06:30,08:00,4,Washington,0,,No feedback available,-0.296
+172,07:00,08:30,6,Philadelphia,25,mechanical issue,No feedback available,-0.296
+173,07:30,09:15,8,Miami,0,,No feedback available,-0.296
+174,08:00,09:45,1,Los Angeles,35,track maintenance,Train 174 maintenance delay was ridiculous.,-0.5859
+175,08:30,10:00,3,Houston,0,,No feedback available,-0.296
+176,09:00,10:30,5,Seattle,10,weather,No feedback available,-0.296
+177,09:30,11:15,7,Denver,0,,No feedback available,-0.296
+178,10:00,11:45,9,New York,50,signal failure,"Train 178 signal failure again, sort it out!",-0.5562
+179,10:30,12:00,2,Boston,0,,No feedback available,-0.296
+180,11:00,12:45,4,Chicago,15,staff shortage,Train 180 staff were great despite the delay.,0.7237
+181,11:30,13:15,6,Washington,0,,No feedback available,-0.296
+182,12:00,13:30,8,Philadelphia,20,mechanical issue,No feedback available,-0.296
+183,12:30,14:00,1,Miami,0,,No feedback available,-0.296
+184,13:00,14:45,3,Los Angeles,30,track maintenance,"Train 184 track issues, very inconvenient.",-0.4005
+185,13:30,15:15,5,Houston,0,,No feedback available,-0.296
+186,14:00,15:30,7,Seattle,25,weather,No feedback available,-0.296
+187,14:30,16:15,9,Denver,0,,No feedback available,-0.296
+188,15:00,16:45,2,New York,40,signal failure,"Train 188 was delayed, terrible experience.",-0.6124
+189,15:30,17:00,4,Boston,0,,No feedback available,-0.296
+190,16:00,17:45,6,Chicago,15,staff shortage,No feedback available,-0.296
+191,16:30,18:15,8,Washington,0,,No feedback available,-0.296
+192,17:00,18:30,1,Philadelphia,20,mechanical issue,"Train 192 arrived on time, pleasantly surprised.",0.6124
+193,17:30,19:00,3,Miami,0,,No feedback available,-0.296
+194,18:00,19:45,5,Los Angeles,35,track maintenance,No feedback available,-0.296
+195,18:30,20:15,7,Houston,0,,No feedback available,-0.296
+196,19:00,20:45,9,Seattle,10,weather,No feedback available,-0.296
+197,19:30,21:00,2,Denver,0,,No feedback available,-0.296
+198,20:00,21:30,4,New York,50,signal failure,No feedback available,-0.296
+199,20:30,22:15,6,Boston,0,,No feedback available,-0.296

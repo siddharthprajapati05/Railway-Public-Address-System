@@ -1,0 +1,6 @@
+spacy==3.7.2
+scikit-learn==1.2.0
+pandas==1.5.0
+numpy==1.26.4  # Latest stable as of now, better ARM support
+gtts==2.3.0
+nltk==3.8.1
