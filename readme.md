@@ -133,7 +133,12 @@ This will return you to your normal terminal session.
      python -m spacy download en_core_web_sm
   ```
 
-
+### 4. **SSL Errors (NLTK)**
+- Install `certifi` to resolve SSL issues:
+  ```bash
+    pip install certifi
+    export SSL_CERT_FILE=$(python -c "import certifi; print(certifi.where())")
+  ```
 
 ---
 
