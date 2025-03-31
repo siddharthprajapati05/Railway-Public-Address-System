@@ -121,7 +121,7 @@ This will return you to your normal terminal session.
 ## Troubleshooting
 
 ### 1. **ModuleNotFoundError**
-- Ensure the virtual environment is activated using `source venv/bin/activate`.
+- Ensure the virtual environment  is activated using `source venv/bin/activate`.
 - Confirm dependencies are installed using `pip install -r requirements.txt`.
 
 ### 2. **FileNotFoundError**
