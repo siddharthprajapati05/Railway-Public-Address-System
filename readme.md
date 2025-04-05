@@ -4,7 +4,6 @@
     The Railway Public Address System is a Python-based project that generates text and voice announcements for train schedules, delays, and passenger feedback. It processes train data, analyzes sentiment from feedback, and produces audio announcements using text-to-speech (TTS).
 
     This system provides clear, automated announcements for both delayed and on-time trains, offering a seamless experience for railway operations.
-
 ---
 
 ## Features
@@ -19,7 +18,6 @@
 - **Python:** Version 3.11 recommended.
 - **Operating System:** Tested on macOS (compatible with Linux/Windows with minor adjustments).
 - **Dependencies:** Listed in `requirements.txt`.
-
 ---
 
 ## Installation
