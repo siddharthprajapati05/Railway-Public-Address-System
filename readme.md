@@ -59,7 +59,7 @@ Place the following files in the `data/raw/` directory:
 ### 1. Activate the Virtual Environment
 ```bash
     source venv/bin/activate  # macOS/Linux
-# For Windows: venv\Scripts\activate
+    # For Windows: venv\Scripts\activate
 ```
 
 ### 2. Run the System
