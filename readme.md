@@ -116,6 +116,72 @@ This will return you to your normal terminal session.
 
 ---
 
+
+
+## 📚 Libraries Used
+
+- **pandas (1.5.0)** – For reading and merging data from CSV and JSON.
+- **numpy (1.26.4)** – For numerical operations like filling missing values.
+- **scikit-learn (1.2.0)** – Reserved for future ML features.
+- **spacy (3.7.2)** – For NLP using the `en_core_web_sm` model.
+- **nltk (3.8.1)** – For sentiment analysis using VADER.
+- **gtts (2.3.0)** – Converts text into speech using Google’s TTS API.
+
+**Note**: Other dependencies (like `certifi`, `requests`) are installed via `requirements.txt`.
+
+---
+
+## ⚙️ Algorithms Used
+
+### 🔗 Merging Data
+- Combines schedule and delay data using `pandas.merge()` (left join on `train_no`).
+- Keeps all scheduled data and adds delay info if available.
+- Time complexity: `O(n log n)`.
+
+### 😊 Sentiment Analysis
+- Uses VADER from `nltk` to analyze user feedback.
+- Returns a sentiment score from -1 (negative) to +1 (positive).
+  
+```python
+    from nltk.sentiment.vader import SentimentIntensityAnalyzer
+    sid = SentimentIntensityAnalyzer()
+    sentiment = sid.polarity_scores(text)["compound"]
+```
+
+### 🔊 Text-to-Speech
+- Uses Google Text-to-Speech (`gtts`) to create MP3 audio announcements.
+
+```python
+    from gtts import gTTS
+    tts = gTTS(text, lang="en")
+    tts.save("announcement.mp3")
+```
+
+---
+
+## 🔄 How It Works
+
+- `main.py` – Runs the main system.
+- `preprocess.py` – Loads and merges data, saves to `processed_data.csv`.
+- `announcement.py` – Creates announcements based on delay info.
+- `utils.py` – Helper functions like loading CSVs and analyzing sentiment.
+
+---
+
+## 🚨 Error Handling
+
+- Invalid train numbers are handled with `try/except`.
+- File handling errors (like missing files) should be added for more robustness.
+
+---
+
+## ✨ Custom Messages
+
+- **On-time trains** – Simple, friendly message.
+- **Delayed trains** – Message includes delay duration and reason with an apology.
+
+---
+
 ## Troubleshooting
 
 ### 1. **ModuleNotFoundError**
