@@ -63,9 +63,10 @@ Place the following files in the `data/raw/` directory:
 ```
 
 ### 2. Run the System
+
 ```bash
-    python main.py
-```
+    streamlit run main.py
+ ```
 
 ### 3. Interact with the System
 - Enter a train number (e.g., 108, 109) to generate an announcement.
