@@ -4,8 +4,8 @@ from src.utils.utils import load_csv, save_model, load_model
 
 def train_classifier(data_file):
     df = load_csv(data_file)
-    X = df[["delay_mins", "sentiment"]]  # Features: delay duration and feedback sentiment
-    y = df["delay_mins"].apply(lambda x: "delay" if x > 0 else "routine")  # Label
+    X = df[["delay_mins", "sentiment"]]  # Features: delay duration and feedback  sentiment
+    y = df["delay_mins"].apply(lambda x: "delay" if x > 0 else "routine")  #  Label
     
     clf = RandomForestClassifier(n_estimators=10)
     clf.fit(X, y)
